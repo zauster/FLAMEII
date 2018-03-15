@@ -24,7 +24,8 @@
 AC_INIT(flame2, 0.0.1, shawn.chin@_NOSPAM_stfc.ac.uk)
 
 # Automake
-AM_INIT_AUTOMAKE
+# AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([subdir-objects])
 
 AC_PREREQ(2.59)
 AC_REVISION($Revision$)
