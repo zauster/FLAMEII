@@ -229,7 +229,7 @@ case "$CXX" in
     ##CPPFLAGS="${CPPFLAGS} ${GCC_FLAGS_SHOWSTOPPER}"
   
     CFLAGS="${CFLAGS} -std=c99 -Wstrict-prototypes -Wmissing-prototypes"
-    CXXFLAGS="${CXXFLAGS} -std=c++98"
+    CXXFLAGS="${CXXFLAGS} -std=c++11"
     ;;
   pgCC*|pgcc*)
     CPPFLAGS="${CPPFLAGS} -c9x -Minform=warn"
